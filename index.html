@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>EzRoomRez</title>
+</head>
+<body>
+    <h1 class="login_title">EzRoomRez</h1>
+    <hr>
+
+    <div class="login_container">
+        <form id="login_form">
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" required><br>
+           
+            <label for="password">Password:</label><br>
+            <input type="text" id="password" name="password" required><br>       
+        </form>
+        <br>
+        
+    </div>
+    <button class="login_button" id="login_button" onclick="validateLogin()">
+        Login
+    </button>
+    <script src="login.js"></script>
+</body>
+</html>

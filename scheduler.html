@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EzRoomRez</title>
+</head>
+<body>
+    <ol>
+        <li>View Reservations</li>
+        <li>Make a Reservation</li>
+        <li>Schedule Automatic Reserving</li>
+        <li>View Profiles</li>
+        <li>Add a Profile</li>
+        <!-- Firstname, lastname, terpmail, UID -->
+        <form>
+            <label for="firstname">First Name:</label><br>
+            <input type="text" id="firstname" name="firstname" required><br>
+           
+            <label for="lastname">Last Name:</label><br>
+            <input type="text" id="lastname" name="lastname" required><br>       
+
+            <label for="terpmail">Terpmail:</label><br>
+            <input type="text" id="terpmail" name="terpmail" required><br>
+           
+            <label for="id">UID:</label><br>
+            <input type="text" id="id" name="id" required><br>       
+        </form>
+        <button class="add_profile_button" id="add_profile_button" onclick="addProfile()">Add Profile</button>
+    </ol>
+    <script src="profile.js"></script>
+</body>
+</html>
